@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+   max-width: 1440px;
+}
+
+.block{
+    display: flex;
+    height: 64px;
+    background: #FFF;
+ 
+}
+
+.imag1{
+    display: flex;
+    position: relative;
+    margin-top: 9px;
+    width: 46.672px;
+    height: 46.672px;
+    flex-shrink: 0;
+    margin-left: 132px;
+    
+}
+.imag2{
+    display: flex;
+    width: 192.017px;
+    height: 34.203px;
+    position: relative;
+    margin-top: 12px; ;
+    
+}
+.text{
+  margin-left: 500px;
+  margin-top: 23px;
+}
+span{
+    color: #343A40;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+}
+.text span{
+    margin-left: 10px;
+}
+.block1{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    
+}
+.imag3{
+z-index: 0;
+
+}
+.content{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: 775px;
+    margin-right: 40%;
+    margin-top: 182px;
+    margin-bottom: 0;
+}
+h1{
+    color: #343A40;
+    margin-top: 10px;
+    /* Title 74 */
+    font-family: Rubik;
+    font-size: 74px;
+    margin-bottom: 0;
+    letter-spacing: 2.22px;
+
+}
+p{
+    font-family: 'Poppins';
+}
+.span1{
+    color: #343A40;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+.btn{
+    margin-top: 62px;
+}
+button{
+    text-align: center;
+    border-radius: 4px;
+    background: #35F;
+    width: 276px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.svgs{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+    stroke-width: 2px;
+    stroke: #FFF;
+}
+.svgs1{
+    display: inline-flex;
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 18px;
+}
+.span2{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 18px;
+    color: #343A40;
+
+    /* Regular 16 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container{
+    display: flex;
+    position: absolute;
+    margin-top: 183px;
+
+}
+.block2{
+    display: flex;
+    width: 276px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 34px 0px rgba(208, 208, 208, 0.40);
+    margin-right: 24px;
+}
+.h2_1{
+    color: #343A40;
+    font-family: 'Poppins';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+
+}
+.span3{
+    position: relative;
+    color: #343A40;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text2{
+    padding: 43px 40px 43px 30px;    
+}
+.container1{
+    display: inline-flex;
+    flex-wrap: initial;
+    margin-top: 500px;
+}
+.h2_2{
+    width: 300px;
+    color: #343A40;
+
+    /* Title 2 (42) */
+    font-family: 'Rubik';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.block3{
+    width: 376px;
+    height: 331px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    margin-left: 100px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.10);
+}
+.content1{
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    flex-shrink: 0;
+    padding-bottom: 20px;
+}
+.imag4{
+    position: absolute;
+    margin: 30px 30px 30px 430px;
+   
+}
+.imag5{
+    position: absolute;
+    margin-left: 400px;
+}
+.span4{
+    color: #343A40;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 164.6%; /* 29.628px */
+    letter-spacing: 0.18px;
+}
+.p1{
+    color: #343A40;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.span5{
+    color: #343A40;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.p2{
+    color: #343A40;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text3{
+    width: 280.561px;
+    margin: 20px;
+    padding-top: 50px;
+}

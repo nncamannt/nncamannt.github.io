@@ -1,0 +1,164 @@
+
+body {
+   background-color: white; font-family: arial;
+}
+.header {
+   background-color: inherit; height: 300px; 
+}
+.menu {
+   background: linear-gradient(to top, #00B454, #00733C); height: 70px; width: 100%;   
+   margin-top: 30px;
+   position: sticky; top: -3px;
+}
+.content {
+   background-color: gold; height: 50%; height: 1150px;
+}
+.footer {
+   background-color: blueviolet; height: 230px;
+}
+#img1 {
+   margin-left: 10px; margin-top: 15px;
+}
+.header1 {
+   float: left; 
+}
+#txt1 {
+   width: 60%; margin-left: 60px; margin-top: -10px;
+}
+.menu button {
+   width: 15%; text-align: center;  
+   background-color: inherit; border: none; font-size: 17px; height: 70px;
+   color: white; transition: color 0.7s linear;    
+}
+.menu button:hover {
+       color: 	#67E667; cursor: pointer;
+}
+.button1 {
+   margin-left: 18%;
+}
+.button2, .button3,.button4 {
+   margin-left: 30px; 
+}
+.content {
+   background-color: inherit; font-size: 20px; margin-top: 60px;
+}
+.cont1 {
+   float: left;
+}
+#txt2 {
+   width: 63%; margin-left: 65px;
+}
+.cont2 {
+   float: left; margin-top: 100px;
+}
+#txt3 {
+   width: 63%; margin-left: 65px;
+}
+.button5 {
+   margin-left: 85%; margin-top: 30px; border: none; 
+   background-color: inherit; font-size: 20px; width: 170px; height: 40px; 
+   color: #a7aba8; transition: color 1s linear; transition: font-size 0.2s linear;  
+}
+.button5:hover {
+   color: #008500; cursor: pointer; font-size: 25px;
+}
+.cont3 {
+   float: right; margin-top: 70px; 
+}
+.txt4 {
+   font-size: 20px; 
+}
+.footer {
+   background: linear-gradient(to top, #00B454, #00733C); height: 100%;  
+}
+.form {
+   margin-left: 40%; border: none; margin-top: 5px;
+}
+#zyv {
+   color: white; margin-left: 45.5%; 
+}
+#button6 {
+   margin-top: 10px; margin-left: 46.5%; border: none; font-size: 20px;
+   background-color: inherit; color: white; transition: 0.3s linear;
+}
+#button6:hover {
+   color: #60D5AC; 
+}
+#f1, #f2 {
+   width: 300px; background-color: white; border-radius: 20px;height: 30px;
+   text-align: center;
+}
+.header2 {
+   display: inline-block;
+}
+#lean {
+   margin-left: 690px; margin-top: 20px; transition: color 0.5s linear;
+   font-size: 17px; border: none; background-color: inherit;
+}
+#lean:hover {
+   color: #008500; cursor: pointer;
+}
+.modal {
+   position: fixed; top: 0; left: 0;
+   width: 100%; height: 100%; display: flex;
+   align-items: center; justify-content: center;
+   visibility: hidden; z-index: -1; opacity: 0;
+   transition: all .18s ease-out;
+}
+.modal .overlay {
+   position: absolute; width: 100%; height: 100%;
+   top: 0; left: 0; background: linear-gradient(to right, #696868, #b8b6b6); opacity: 0.4;
+   z-index: 0;
+}
+.modal-window {
+   position: relative; z-index: 2;
+   width: 700px; background: linear-gradient(to right, #006F48, #20805E);
+   height: 500px; color: white; margin-top: -40px; transition: inherit; text-align: center;
+   border-radius: 10px;
+}
+.modal.show {
+      visibility: visible; z-index: 100; opacity: 1;
+}
+
+.modal.show .modal-window {
+   margin-top: 0;
+}
+.pp {
+   margin-top: 50px; text-decoration: none;
+}
+.yz {
+   margin-top: 50px; 
+}
+.img4 {
+   margin-top: 20px;
+}
+.p1 {
+   text-decoration: none; color: white; transition: 0.1s linear;
+}
+.p1:hover {
+   color: 	#60D5AC; font-size: 23px;
+}
+
+
+@media only screen and (max-width: 1365px){
+    
+  #img1{
+   margin-left: 0; 
+  }
+  #txt1 {
+   width: 50%; margin-left: 0;
+  }
+  .menu {
+   height: 100px; margin-top: 50px; width: 100%;
+  }
+  #button1 {
+   margin-left: 30%;
+  }
+  
+}
+
+@media only screen and (max-width: 1162px) {
+   .menu {
+      width: 100%; margin-top: 200px;
+   }
+}
